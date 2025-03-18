@@ -37,8 +37,7 @@
                 Console.WriteLine("..............................");
 
                 Console.Write("Digite o número desejado: ");
-                string strNumeroTabuada = Console.ReadLine();
-                int numeroTabuada = Convert.ToInt32(strNumeroTabuada);
+                int numeroTabuada = Convert.ToInt32(Console.ReadLine());
 
                 for (int i = 1; i <= 10; i++)
                 {
@@ -79,12 +78,10 @@
 
 
             Console.WriteLine("Digite o primeiro número:");
-            string strPrimeiroNumero = Console.ReadLine();
-            double primeiroNumero = Convert.ToDouble(strPrimeiroNumero);
+            double primeiroNumero = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Digite o segundo número:");
-            string strSegundoNumero = Console.ReadLine();
-            double segundoNumero = Convert.ToDouble(strSegundoNumero);
+            double segundoNumero = Convert.ToDouble(Console.ReadLine());
 
             double resultado;
 
