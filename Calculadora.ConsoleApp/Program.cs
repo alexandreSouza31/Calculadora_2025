@@ -10,8 +10,6 @@
         {
 
             Console.Clear();
-            Console.WriteLine($"Arrey na posição 0: {operacoesRealizadas[0]}");
-            Console.WriteLine($"Arrey na posição 0: {operacoesRealizadas[1]}");
 
             Console.WriteLine("------------------------------");
             Console.WriteLine("Calculadora Tabajara 2025!");
