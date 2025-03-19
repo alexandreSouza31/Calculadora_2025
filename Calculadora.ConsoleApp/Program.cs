@@ -46,9 +46,11 @@
 
                     for (int i = 1; i <= 10; i++)
                     {
-                        Console.WriteLine($"{numeroTabuada} x {i} = {numeroTabuada * i}");
+                        string resultadoTabuada = $"{numeroTabuada} x {i} = {numeroTabuada * i} \n";
+                        Console.WriteLine(resultadoTabuada);
+                        operacoesRealizadas[contador]+=resultadoTabuada;
                     }
-
+                    contador++;
                     Console.ReadLine();
                     continue;
                 }
