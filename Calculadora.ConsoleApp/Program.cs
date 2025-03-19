@@ -46,6 +46,8 @@
                 continue;
             }
 
+            bool historicoVazio = true;
+
             if (opcao == "6")
             {
                 Console.WriteLine("\n ..............................");
@@ -56,10 +58,10 @@
                 {
                     if (operacoesRealizadas[i] != null) { 
                     Console.WriteLine(operacoesRealizadas[i]);
-                    break;
+                        historicoVazio = false;
                     }
                 
-                    else if (operacoesRealizadas[i] == null)
+                    else if (historicoVazio)
                     {
                         Console.WriteLine("Histórico vazio! Nenhuma operação realizada ainda!");
                         break;
